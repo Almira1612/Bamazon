@@ -2,7 +2,7 @@
 //Require packages
 var mysql = require('mysql');
 var inquirer = require('inquirer');
-//var prompt = require('prompt');
+
 var colors = require('colors/safe');
 var Table = require('cli-table');
 
@@ -11,7 +11,7 @@ var total = 0;
 var connection = mysql.createConnection({
 	host: 'localHost',
 	user: 'root',
-	password: '1612',
+	password: '',//Your password
 	database: 'bamazon_db', 
 });
 //connect to the database
