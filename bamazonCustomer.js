@@ -2,7 +2,7 @@
 //Require packages
 var mysql = require('mysql');
 var inquirer = require('inquirer');
-//var prompt = require('prompt');
+
 var colors = require('colors/safe');
 var Table = require('cli-table');
 
